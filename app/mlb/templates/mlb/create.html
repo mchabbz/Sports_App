@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header">
+    <h2>Add New MLB Player</h2>
+</section>
+
+{% if errors %}
+<section class="error-box">
+    <ul>
+        {% for error in errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+<!-- Form for creating a new player record. -->
+<form class="data-form" method="POST" action="{{ url_for('mlb.create') }}">
+
+    <label>Game ID</label>
+    <input type="text" name="game_id" value="{{ form_data.get('game_id', 'MLB-2025-001') }}">
+
+    <label>League</label>
+    <input type="text" name="league" value="{{ form_data.get('league', 'MLB') }}">
+
+    <label>Team</label>
+    <input type="text" name="team" value="{{ form_data.get('team', '') }}">
+
+    <label>Player</label>
+    <input type="text" name="player" value="{{ form_data.get('player', '') }}">
+
+    <label>Metric 1</label>
+    <input type="number" name="metric_1" value="{{ form_data.get('metric_1', '') }}">
+
+    <label>Metric 2</label>
+    <input type="number" name="metric_2" value="{{ form_data.get('metric_2', '') }}">
+
+    <label>Metric 3</label>
+    <input type="number" step="0.001" name="metric_3" value="{{ form_data.get('metric_3', '') }}">
+
+    <label>Metric 4</label>
+    <input type="number" name="metric_4" value="{{ form_data.get('metric_4', '') }}">
+<!-- Validation errors are displayed above the form. -->
+<!-- Form values are preserved if validation fails. -->
+    <div class="form-actions">
+        <button type="submit">Create Player</button>
+        <a href="{{ url_for('mlb.index') }}">Cancel</a>
+    </div>
+
+</form>
+
+{% endblock %}

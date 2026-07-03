@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Confirmation page to prevent accidental deletion. -->
+<section class="page-header">
+    <h2>Delete NBA Player</h2>
+</section>
+
+<section class="delete-box">
+    <p>Are you sure you want to delete this player?</p>
+
+    <p><strong>{{ player.player }}</strong></p>
+    <p>{{ player.team }} — {{ player.league }}</p>
+<!-- The delete action only happens when the form is submitted with POST. -->
+    <form method="POST" action="{{ url_for('nba.delete', player_id=player.id) }}">
+        <button class="danger-button" type="submit">Yes, Delete</button>
+        <a href="{{ url_for('nba.detail', player_id=player.id) }}">Cancel</a>
+    </form>
+</section>
+
+{% endblock %}

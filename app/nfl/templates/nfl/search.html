@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- This page searches only records for this specific league. -->
+<section class="page-header">
+    <h2>Search NFL Players</h2>
+    <p>This page searches only NFL player records.</p>
+</section>
+
+<section class="filter-box">
+    <form method="GET" action="{{ url_for('nfl.search') }}">
+
+        <div class="form-row">
+            <label for="q">Search Text</label>
+            <input
+                type="text"
+                id="q"
+                name="q"
+                value="{{ query }}"
+                placeholder="Example: Chief, Alex, NFL-2025-001"
+                required
+            >
+        </div>
+<!-- The search field dropdown allows searching by a specific property. -->
+        <div class="form-row">
+            <label for="field">Search Property</label>
+            <select id="field" name="field">
+                <option value="all" {% if search_field == "all" %}selected{% endif %}>All NFL Properties</option>
+                <option value="game_id" {% if search_field == "game_id" %}selected{% endif %}>Game ID</option>
+                <option value="league" {% if search_field == "league" %}selected{% endif %}>League</option>
+                <option value="team" {% if search_field == "team" %}selected{% endif %}>Team</option>
+                <option value="player" {% if search_field == "player" %}selected{% endif %}>Player</option>
+            </select>
+        </div>
+<!-- Search results are displayed only after a query is submitted. -->
+        <div class="form-actions">
+            <button type="submit">Search NFL</button>
+            <a href="{{ url_for('nfl.search') }}">Clear</a>
+            <a href="{{ url_for('nfl.index') }}">Back to NFL List</a>
+        </div>
+
+    </form>
+</section>
+
+{% if query %}
+<section class="page-header">
+    <h3>Results for "{{ query }}"</h3>
+    <p>Results found: {{ players|length }}</p>
+</section>
+
+<table class="data-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Sport</th>
+            <th>Game ID</th>
+            <th>League</th>
+            <th>Team</th>
+            <th>Player</th>
+            <th>Metric 1</th>
+            <th>Metric 2</th>
+            <th>Metric 3</th>
+            <th>Metric 4</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for player in players %}
+        <tr>
+            <td>{{ player.id }}</td>
+            <td>{{ player.sport.name }}</td>
+            <td>{{ player.game_id }}</td>
+            <td>{{ player.league }}</td>
+            <td>{{ player.team }}</td>
+            <td>{{ player.player }}</td>
+            <td>{{ player.metric_1 }}</td>
+            <td>{{ player.metric_2 }}</td>
+            <td>{{ "%.3f"|format(player.metric_3) }}</td>
+            <td>{{ player.metric_4 }}</td>
+            <td>
+                <a href="{{ url_for('nfl.detail', player_id=player.id) }}">View</a>
+                <a href="{{ url_for('nfl.edit', player_id=player.id) }}">Edit</a>
+                <a href="{{ url_for('nfl.delete', player_id=player.id) }}">Delete</a>
+            </td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="11">No NFL players matched your search.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% endblock %}

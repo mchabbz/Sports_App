@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Home page introduces the purpose of the sports dashboard. -->
+<section class="hero home-hero">
+    <div class="hero-text">
+        <p class="eyebrow">Sports Data Management System</p>
+
+        <h2>Explore Top Players Across MLB, NBA, and NFL</h2>
+
+        <p class="hero-description">
+            This web application organizes player performance data from three major sports leagues:
+            Major League Baseball, the National Basketball Association, and the National Football League.
+            The data was loaded from CSV files into a SQLite database and is displayed through dynamic
+            Flask pages using SQLAlchemy ORM queries.
+        </p>
+
+        <p class="hero-description">
+            Users can browse players by league, search for records, filter by team, sort by performance
+            metrics, and view detailed information for each player. Registered users can also create,
+            update, and delete records based on authorization rules.
+        </p>
+
+        <div class="hero-actions">
+            <a class="button-link" href="{{ url_for('mlb.index') }}">Browse MLB</a>
+            <a class="button-link" href="{{ url_for('nba.index') }}">Browse NBA</a>
+            <a class="button-link" href="{{ url_for('nfl.index') }}">Browse NFL</a>
+        </div>
+    </div>
+</section>
+<!-- Global search searches across MLB, NBA, and NFL records. -->
+<section class="global-search-box">
+    <h3>Search All Sports</h3>
+
+    <p>
+        Use global search to find players, teams, leagues, or game IDs across MLB, NBA, and NFL at the same time.
+    </p>
+
+    <form method="GET" action="{{ url_for('global_search') }}">
+        <input
+            type="text"
+            name="q"
+            placeholder="Example: Alex, Yankees, Lakers, Chiefs, MLB-2025-001"
+            required
+        >
+
+        <button type="submit">Search All</button>
+    </form>
+</section>
+<!-- League cards provide quick navigation to each sport section. -->
+<section class="home-grid">
+    <article class="info-card">
+        <h3>MLB Players</h3>
+        <p>
+            View baseball player records loaded from the MLB CSV file. You can browse by team,
+            sort by metrics, search MLB-only data, and manage records if you are logged in.
+        </p>
+
+        <div class="card-actions">
+            <a href="{{ url_for('mlb.index') }}">View MLB List</a>
+            <a href="{{ url_for('mlb.search') }}">Search MLB</a>
+        </div>
+    </article>
+
+    <article class="info-card">
+        <h3>NBA Players</h3>
+        <p>
+            Explore basketball player records from the NBA dataset. The NBA section has its own
+            list page, search page, detail pages, and protected create/edit/delete features.
+        </p>
+
+        <div class="card-actions">
+            <a href="{{ url_for('nba.index') }}">View NBA List</a>
+            <a href="{{ url_for('nba.search') }}">Search NBA</a>
+        </div>
+    </article>
+
+    <article class="info-card">
+        <h3>NFL Players</h3>
+        <p>
+            Browse football player records from the NFL dataset. The NFL section allows filtering,
+            sorting, searching, viewing details, and user-authorized record management.
+        </p>
+
+        <div class="card-actions">
+            <a href="{{ url_for('nfl.index') }}">View NFL List</a>
+            <a href="{{ url_for('nfl.search') }}">Search NFL</a>
+        </div>
+    </article>
+</section>
+<!-- Feature section summarizes the main project functionality. -->
+<section class="feature-section">
+    <h3>What This Application Demonstrates</h3>
+
+    <div class="feature-list">
+        <div class="feature-item">
+            <h4>Database Design</h4>
+            <p>
+                The app uses Flask-SQLAlchemy models for sports, players, and users.
+                Player records are connected to sports through relationships.
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <h4>Dynamic Data Display</h4>
+            <p>
+                Player data is not hardcoded. It is queried from the database and rendered
+                dynamically using Jinja templates.
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <h4>Search, Filter, and Sort</h4>
+            <p>
+                Each sport has its own search page, while the home page provides a global
+                search across MLB, NBA, and NFL.
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <h4>Create, Update, Delete</h4>
+            <p>
+                Logged-in users can add player records. Users can manage records they created,
+                while admin users can manage all records.
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <h4>User Accounts</h4>
+            <p>
+                Registration and login allow the application to connect created records to user
+                accounts and protect sensitive routes.
+            </p>
+        </div>
+
+        <div class="feature-item">
+            <h4>Light and Dark Mode</h4>
+            <p>
+                The interface includes a smooth theme switcher so users can choose between a
+                light theme and a dark theme.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="project-summary">
+    <h3>About the Metrics</h3>
+
+    <p>
+        Each player record includes four numeric performance metrics from the CSV files.
+        These generic metric columns make the application flexible enough to display different
+        sports data while keeping a consistent table structure across MLB, NBA, and NFL.
+    </p>
+
+    <p>
+        The ID column shown in tables is a database-generated primary key. It is used by the
+        application to view, edit, and delete individual records. It does not represent a player ranking.
+    </p>
+</section>
+
+{% endblock %}

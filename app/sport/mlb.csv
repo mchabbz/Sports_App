@@ -1,0 +1,151 @@
+Game_ID,League,Teams,Players,Metric_1,Metric_2,Metric_3,Metric_4
+MLB-2025-001,MLB,Arizona Diamondbacks,Alex Diamondback AD1,29,253,0.221,76
+MLB-2025-001,MLB,Arizona Diamondbacks,Jordan Diamondback AD2,30,256,0.222,77
+MLB-2025-001,MLB,Arizona Diamondbacks,Taylor Diamondback AD3,31,259,0.223,78
+MLB-2025-001,MLB,Arizona Diamondbacks,Chris Diamondback AD4,32,262,0.224,79
+MLB-2025-001,MLB,Arizona Diamondbacks,Cameron Diamondback AD5,33,265,0.225,80
+MLB-2025-001,MLB,Atlanta Braves,Alex Brave AB1,39,283,0.231,86
+MLB-2025-001,MLB,Atlanta Braves,Jordan Brave AB2,40,286,0.232,87
+MLB-2025-001,MLB,Atlanta Braves,Taylor Brave AB3,41,289,0.233,88
+MLB-2025-001,MLB,Atlanta Braves,Chris Brave AB4,42,292,0.234,89
+MLB-2025-001,MLB,Atlanta Braves,Cameron Brave AB5,43,295,0.235,90
+MLB-2025-001,MLB,Baltimore Orioles,Alex Oriole BO1,22,313,0.241,96
+MLB-2025-001,MLB,Baltimore Orioles,Jordan Oriole BO2,23,316,0.242,97
+MLB-2025-001,MLB,Baltimore Orioles,Taylor Oriole BO3,24,319,0.243,98
+MLB-2025-001,MLB,Baltimore Orioles,Chris Oriole BO4,25,322,0.244,99
+MLB-2025-001,MLB,Baltimore Orioles,Cameron Oriole BO5,26,325,0.245,100
+MLB-2025-001,MLB,Boston Red Sox,Alex Sox BR1,32,343,0.251,106
+MLB-2025-001,MLB,Boston Red Sox,Jordan Sox BR2,33,346,0.252,107
+MLB-2025-001,MLB,Boston Red Sox,Taylor Sox BR3,34,349,0.253,108
+MLB-2025-001,MLB,Boston Red Sox,Chris Sox BR4,35,352,0.254,109
+MLB-2025-001,MLB,Boston Red Sox,Cameron Sox BR5,36,355,0.255,110
+MLB-2025-001,MLB,Chicago Cubs,Alex Cubs CC1,42,373,0.261,116
+MLB-2025-001,MLB,Chicago Cubs,Jordan Cubs CC2,43,376,0.262,117
+MLB-2025-001,MLB,Chicago Cubs,Taylor Cubs CC3,44,379,0.263,118
+MLB-2025-001,MLB,Chicago Cubs,Chris Cubs CC4,18,382,0.264,119
+MLB-2025-001,MLB,Chicago Cubs,Cameron Cubs CC5,19,385,0.265,120
+MLB-2025-001,MLB,Chicago White Sox,Alex Sox CW1,25,403,0.271,126
+MLB-2025-001,MLB,Chicago White Sox,Jordan Sox CW2,26,406,0.272,127
+MLB-2025-001,MLB,Chicago White Sox,Taylor Sox CW3,27,409,0.273,128
+MLB-2025-001,MLB,Chicago White Sox,Chris Sox CW4,28,412,0.274,129
+MLB-2025-001,MLB,Chicago White Sox,Cameron Sox CW5,29,415,0.275,130
+MLB-2025-001,MLB,Cincinnati Reds,Alex Reds CR1,35,433,0.281,136
+MLB-2025-001,MLB,Cincinnati Reds,Jordan Reds CR2,36,436,0.282,137
+MLB-2025-001,MLB,Cincinnati Reds,Taylor Reds CR3,37,439,0.283,138
+MLB-2025-001,MLB,Cincinnati Reds,Chris Reds CR4,38,442,0.284,139
+MLB-2025-001,MLB,Cincinnati Reds,Cameron Reds CR5,39,445,0.285,140
+MLB-2025-001,MLB,Cleveland Guardians,Alex Guardian CG1,18,463,0.291,146
+MLB-2025-001,MLB,Cleveland Guardians,Jordan Guardian CG2,19,466,0.292,147
+MLB-2025-001,MLB,Cleveland Guardians,Taylor Guardian CG3,20,469,0.293,148
+MLB-2025-001,MLB,Cleveland Guardians,Chris Guardian CG4,21,472,0.294,149
+MLB-2025-001,MLB,Cleveland Guardians,Cameron Guardian CG5,22,475,0.295,150
+MLB-2025-001,MLB,Colorado Rockies,Alex Rockie CR1,28,493,0.211,156
+MLB-2025-001,MLB,Colorado Rockies,Jordan Rockie CR2,29,496,0.212,157
+MLB-2025-001,MLB,Colorado Rockies,Taylor Rockie CR3,30,499,0.213,158
+MLB-2025-001,MLB,Colorado Rockies,Chris Rockie CR4,31,502,0.214,159
+MLB-2025-001,MLB,Colorado Rockies,Cameron Rockie CR5,32,505,0.215,160
+MLB-2025-001,MLB,Detroit Tigers,Alex Tiger DT1,38,523,0.221,166
+MLB-2025-001,MLB,Detroit Tigers,Jordan Tiger DT2,39,526,0.222,167
+MLB-2025-001,MLB,Detroit Tigers,Taylor Tiger DT3,40,529,0.223,168
+MLB-2025-001,MLB,Detroit Tigers,Chris Tiger DT4,41,532,0.224,169
+MLB-2025-001,MLB,Detroit Tigers,Cameron Tiger DT5,42,535,0.225,170
+MLB-2025-001,MLB,Houston Astros,Alex Astro HA1,21,553,0.231,176
+MLB-2025-001,MLB,Houston Astros,Jordan Astro HA2,22,556,0.232,177
+MLB-2025-001,MLB,Houston Astros,Taylor Astro HA3,23,559,0.233,178
+MLB-2025-001,MLB,Houston Astros,Chris Astro HA4,24,562,0.234,179
+MLB-2025-001,MLB,Houston Astros,Cameron Astro HA5,25,565,0.235,180
+MLB-2025-001,MLB,Kansas City Royals,Alex Royal KC1,31,583,0.241,66
+MLB-2025-001,MLB,Kansas City Royals,Jordan Royal KC2,32,586,0.242,67
+MLB-2025-001,MLB,Kansas City Royals,Taylor Royal KC3,33,589,0.243,68
+MLB-2025-001,MLB,Kansas City Royals,Chris Royal KC4,34,592,0.244,69
+MLB-2025-001,MLB,Kansas City Royals,Cameron Royal KC5,35,595,0.245,70
+MLB-2025-001,MLB,Los Angeles Angels,Alex Angel LA1,41,613,0.251,76
+MLB-2025-001,MLB,Los Angeles Angels,Jordan Angel LA2,42,616,0.252,77
+MLB-2025-001,MLB,Los Angeles Angels,Taylor Angel LA3,43,619,0.253,78
+MLB-2025-001,MLB,Los Angeles Angels,Chris Angel LA4,44,622,0.254,79
+MLB-2025-001,MLB,Los Angeles Angels,Cameron Angel LA5,18,625,0.255,80
+MLB-2025-001,MLB,Los Angeles Dodgers,Alex Dodger LA1,24,643,0.261,86
+MLB-2025-001,MLB,Los Angeles Dodgers,Jordan Dodger LA2,25,646,0.262,87
+MLB-2025-001,MLB,Los Angeles Dodgers,Taylor Dodger LA3,26,649,0.263,88
+MLB-2025-001,MLB,Los Angeles Dodgers,Chris Dodger LA4,27,652,0.264,89
+MLB-2025-001,MLB,Los Angeles Dodgers,Cameron Dodger LA5,28,655,0.265,90
+MLB-2025-001,MLB,Miami Marlins,Alex Marlin MM1,34,673,0.271,96
+MLB-2025-001,MLB,Miami Marlins,Jordan Marlin MM2,35,676,0.272,97
+MLB-2025-001,MLB,Miami Marlins,Taylor Marlin MM3,36,679,0.273,98
+MLB-2025-001,MLB,Miami Marlins,Chris Marlin MM4,37,682,0.274,99
+MLB-2025-001,MLB,Miami Marlins,Cameron Marlin MM5,38,685,0.275,100
+MLB-2025-001,MLB,Milwaukee Brewers,Alex Brewer MB1,44,703,0.281,106
+MLB-2025-001,MLB,Milwaukee Brewers,Jordan Brewer MB2,18,706,0.282,107
+MLB-2025-001,MLB,Milwaukee Brewers,Taylor Brewer MB3,19,709,0.283,108
+MLB-2025-001,MLB,Milwaukee Brewers,Chris Brewer MB4,20,712,0.284,109
+MLB-2025-001,MLB,Milwaukee Brewers,Cameron Brewer MB5,21,715,0.285,110
+MLB-2025-001,MLB,Minnesota Twins,Alex Twin MT1,27,733,0.291,116
+MLB-2025-001,MLB,Minnesota Twins,Jordan Twin MT2,28,736,0.292,117
+MLB-2025-001,MLB,Minnesota Twins,Taylor Twin MT3,29,739,0.293,118
+MLB-2025-001,MLB,Minnesota Twins,Chris Twin MT4,30,742,0.294,119
+MLB-2025-001,MLB,Minnesota Twins,Cameron Twin MT5,31,745,0.295,120
+MLB-2025-001,MLB,New York Mets,Alex Mets NY1,37,763,0.211,126
+MLB-2025-001,MLB,New York Mets,Jordan Mets NY2,38,766,0.212,127
+MLB-2025-001,MLB,New York Mets,Taylor Mets NY3,39,769,0.213,128
+MLB-2025-001,MLB,New York Mets,Chris Mets NY4,40,772,0.214,129
+MLB-2025-001,MLB,New York Mets,Cameron Mets NY5,41,775,0.215,130
+MLB-2025-001,MLB,New York Yankees,Alex Yankee NY1,20,793,0.221,136
+MLB-2025-001,MLB,New York Yankees,Jordan Yankee NY2,21,796,0.222,137
+MLB-2025-001,MLB,New York Yankees,Taylor Yankee NY3,22,799,0.223,138
+MLB-2025-001,MLB,New York Yankees,Chris Yankee NY4,23,802,0.224,139
+MLB-2025-001,MLB,New York Yankees,Cameron Yankee NY5,24,805,0.225,140
+MLB-2025-001,MLB,Oakland Athletics,Alex Athletic OA1,30,823,0.231,146
+MLB-2025-001,MLB,Oakland Athletics,Jordan Athletic OA2,31,826,0.232,147
+MLB-2025-001,MLB,Oakland Athletics,Taylor Athletic OA3,32,829,0.233,148
+MLB-2025-001,MLB,Oakland Athletics,Chris Athletic OA4,33,832,0.234,149
+MLB-2025-001,MLB,Oakland Athletics,Cameron Athletic OA5,34,835,0.235,150
+MLB-2025-001,MLB,Philadelphia Phillies,Alex Phillie PP1,40,853,0.241,156
+MLB-2025-001,MLB,Philadelphia Phillies,Jordan Phillie PP2,41,856,0.242,157
+MLB-2025-001,MLB,Philadelphia Phillies,Taylor Phillie PP3,42,859,0.243,158
+MLB-2025-001,MLB,Philadelphia Phillies,Chris Phillie PP4,43,862,0.244,159
+MLB-2025-001,MLB,Philadelphia Phillies,Cameron Phillie PP5,44,865,0.245,160
+MLB-2025-001,MLB,Pittsburgh Pirates,Alex Pirate PP1,23,883,0.251,166
+MLB-2025-001,MLB,Pittsburgh Pirates,Jordan Pirate PP2,24,886,0.252,167
+MLB-2025-001,MLB,Pittsburgh Pirates,Taylor Pirate PP3,25,889,0.253,168
+MLB-2025-001,MLB,Pittsburgh Pirates,Chris Pirate PP4,26,892,0.254,169
+MLB-2025-001,MLB,Pittsburgh Pirates,Cameron Pirate PP5,27,895,0.255,170
+MLB-2025-001,MLB,San Diego Padres,Alex Padre SD1,33,913,0.261,176
+MLB-2025-001,MLB,San Diego Padres,Jordan Padre SD2,34,916,0.262,177
+MLB-2025-001,MLB,San Diego Padres,Taylor Padre SD3,35,919,0.263,178
+MLB-2025-001,MLB,San Diego Padres,Chris Padre SD4,36,922,0.264,179
+MLB-2025-001,MLB,San Diego Padres,Cameron Padre SD5,37,925,0.265,180
+MLB-2025-001,MLB,San Francisco Giants,Alex Giant SF1,43,943,0.271,66
+MLB-2025-001,MLB,San Francisco Giants,Jordan Giant SF2,44,946,0.272,67
+MLB-2025-001,MLB,San Francisco Giants,Taylor Giant SF3,18,949,0.273,68
+MLB-2025-001,MLB,San Francisco Giants,Chris Giant SF4,19,952,0.274,69
+MLB-2025-001,MLB,San Francisco Giants,Cameron Giant SF5,20,955,0.275,70
+MLB-2025-001,MLB,Seattle Mariners,Alex Mariner SM1,26,973,0.281,76
+MLB-2025-001,MLB,Seattle Mariners,Jordan Mariner SM2,27,976,0.282,77
+MLB-2025-001,MLB,Seattle Mariners,Taylor Mariner SM3,28,979,0.283,78
+MLB-2025-001,MLB,Seattle Mariners,Chris Mariner SM4,29,982,0.284,79
+MLB-2025-001,MLB,Seattle Mariners,Cameron Mariner SM5,30,985,0.285,80
+MLB-2025-001,MLB,St. Louis Cardinals,Alex Cardinal SL1,36,1003,0.291,86
+MLB-2025-001,MLB,St. Louis Cardinals,Jordan Cardinal SL2,37,1006,0.292,87
+MLB-2025-001,MLB,St. Louis Cardinals,Taylor Cardinal SL3,38,1009,0.293,88
+MLB-2025-001,MLB,St. Louis Cardinals,Chris Cardinal SL4,39,1012,0.294,89
+MLB-2025-001,MLB,St. Louis Cardinals,Cameron Cardinal SL5,40,1015,0.295,90
+MLB-2025-001,MLB,Tampa Bay Rays,Alex Rays TB1,19,1033,0.211,96
+MLB-2025-001,MLB,Tampa Bay Rays,Jordan Rays TB2,20,1036,0.212,97
+MLB-2025-001,MLB,Tampa Bay Rays,Taylor Rays TB3,21,1039,0.213,98
+MLB-2025-001,MLB,Tampa Bay Rays,Chris Rays TB4,22,1042,0.214,99
+MLB-2025-001,MLB,Tampa Bay Rays,Cameron Rays TB5,23,1045,0.215,100
+MLB-2025-001,MLB,Texas Rangers,Alex Ranger TR1,29,1063,0.221,106
+MLB-2025-001,MLB,Texas Rangers,Jordan Ranger TR2,30,1066,0.222,107
+MLB-2025-001,MLB,Texas Rangers,Taylor Ranger TR3,31,1069,0.223,108
+MLB-2025-001,MLB,Texas Rangers,Chris Ranger TR4,32,1072,0.224,109
+MLB-2025-001,MLB,Texas Rangers,Cameron Ranger TR5,33,1075,0.225,110
+MLB-2025-001,MLB,Toronto Blue Jays,Alex Jays TB1,39,1093,0.231,116
+MLB-2025-001,MLB,Toronto Blue Jays,Jordan Jays TB2,40,1096,0.232,117
+MLB-2025-001,MLB,Toronto Blue Jays,Taylor Jays TB3,41,1099,0.233,118
+MLB-2025-001,MLB,Toronto Blue Jays,Chris Jays TB4,42,1102,0.234,119
+MLB-2025-001,MLB,Toronto Blue Jays,Cameron Jays TB5,43,1105,0.235,120
+MLB-2025-001,MLB,Washington Nationals,Alex National WN1,22,1123,0.241,126
+MLB-2025-001,MLB,Washington Nationals,Jordan National WN2,23,1126,0.242,127
+MLB-2025-001,MLB,Washington Nationals,Taylor National WN3,24,1129,0.243,128
+MLB-2025-001,MLB,Washington Nationals,Chris National WN4,25,1132,0.244,129
+MLB-2025-001,MLB,Washington Nationals,Cameron National WN5,26,1135,0.245,130

@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header">
+    <h2>Global Search</h2>
+
+    {% if query %}
+        <p>Showing results for: <strong>{{ query }}</strong></p>
+    {% else %}
+        <p>Search across MLB, NBA, and NFL.</p>
+    {% endif %}
+</section>
+
+<section class="global-search-box">
+    <form method="GET" action="{{ url_for('global_search') }}">
+        <input
+            type="text"
+            name="q"
+            value="{{ query }}"
+            placeholder="Search player, team, league, or game ID"
+            required
+        >
+
+        <button type="submit">Search All</button>
+        <a href="{{ url_for('index') }}">Back Home</a>
+    </form>
+</section>
+
+{% if query %}
+
+<section class="search-results-section">
+    <h3>MLB Results: {{ mlb_results|length }}</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sport</th>
+                <th>Game ID</th>
+                <th>League</th>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Metric 1</th>
+                <th>Metric 2</th>
+                <th>Metric 3</th>
+                <th>Metric 4</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for player in mlb_results %}
+            <tr>
+                <td>{{ player.id }}</td>
+                <td>{{ player.sport.name }}</td>
+                <td>{{ player.game_id }}</td>
+                <td>{{ player.league }}</td>
+                <td>{{ player.team }}</td>
+                <td>{{ player.player }}</td>
+                <td>{{ player.metric_1 }}</td>
+                <td>{{ player.metric_2 }}</td>
+                <td>{{ "%.3f"|format(player.metric_3) }}</td>
+                <td>{{ player.metric_4 }}</td>
+                <td>
+                    <a href="{{ url_for('mlb.detail', player_id=player.id) }}">View</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="11">No MLB results found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="search-results-section">
+    <h3>NBA Results: {{ nba_results|length }}</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sport</th>
+                <th>Game ID</th>
+                <th>League</th>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Metric 1</th>
+                <th>Metric 2</th>
+                <th>Metric 3</th>
+                <th>Metric 4</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for player in nba_results %}
+            <tr>
+                <td>{{ player.id }}</td>
+                <td>{{ player.sport.name }}</td>
+                <td>{{ player.game_id }}</td>
+                <td>{{ player.league }}</td>
+                <td>{{ player.team }}</td>
+                <td>{{ player.player }}</td>
+                <td>{{ player.metric_1 }}</td>
+                <td>{{ player.metric_2 }}</td>
+                <td>{{ "%.3f"|format(player.metric_3) }}</td>
+                <td>{{ player.metric_4 }}</td>
+                <td>
+                    <a href="{{ url_for('nba.detail', player_id=player.id) }}">View</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="11">No NBA results found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="search-results-section">
+    <h3>NFL Results: {{ nfl_results|length }}</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Sport</th>
+                <th>Game ID</th>
+                <th>League</th>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Metric 1</th>
+                <th>Metric 2</th>
+                <th>Metric 3</th>
+                <th>Metric 4</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for player in nfl_results %}
+            <tr>
+                <td>{{ player.id }}</td>
+                <td>{{ player.sport.name }}</td>
+                <td>{{ player.game_id }}</td>
+                <td>{{ player.league }}</td>
+                <td>{{ player.team }}</td>
+                <td>{{ player.player }}</td>
+                <td>{{ player.metric_1 }}</td>
+                <td>{{ player.metric_2 }}</td>
+                <td>{{ "%.3f"|format(player.metric_3) }}</td>
+                <td>{{ player.metric_4 }}</td>
+                <td>
+                    <a href="{{ url_for('nfl.detail', player_id=player.id) }}">View</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="11">No NFL results found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+{% endif %}
+
+{% endblock %}

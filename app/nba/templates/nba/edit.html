@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Form for editing an existing player record. -->
+<section class="page-header">
+    <h2>Edit NBA Player</h2>
+    <p>{{ player.player }}</p>
+</section>
+
+{% if errors %}
+<section class="error-box">
+    <ul>
+        {% for error in errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+<!-- Existing player values are pre-filled in the form. -->
+<form class="data-form" method="POST" action="{{ url_for('nba.edit', player_id=player.id) }}">
+
+    <label>Game ID</label>
+    <input type="text" name="game_id" value="{{ form_data.get('game_id', player.game_id) }}">
+
+    <label>League</label>
+    <input type="text" name="league" value="{{ form_data.get('league', player.league) }}">
+
+    <label>Team</label>
+    <input type="text" name="team" value="{{ form_data.get('team', player.team) }}">
+
+    <label>Player</label>
+    <input type="text" name="player" value="{{ form_data.get('player', player.player) }}">
+
+    <label>Metric 1</label>
+    <input type="number" name="metric_1" value="{{ form_data.get('metric_1', player.metric_1) }}">
+
+    <label>Metric 2</label>
+    <input type="number" name="metric_2" value="{{ form_data.get('metric_2', player.metric_2) }}">
+
+    <label>Metric 3</label>
+    <input type="number" step="0.001" name="metric_3" value="{{ form_data.get('metric_3', player.metric_3) }}">
+
+    <label>Metric 4</label>
+    <input type="number" name="metric_4" value="{{ form_data.get('metric_4', player.metric_4) }}">
+<!-- Submitted changes are validated before updating the database. -->
+    <div class="form-actions">
+        <button type="submit">Save Changes</button>
+        <a href="{{ url_for('nba.detail', player_id=player.id) }}">Cancel</a>
+    </div>
+
+</form>
+
+{% endblock %}

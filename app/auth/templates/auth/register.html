@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="page-header">
+    <h2>Create Account</h2>
+    <p>Register to create, edit, and manage your own player records.</p>
+</section>
+
+{% if errors %}
+<section class="error-box">
+    <ul>
+        {% for error in errors %}
+            <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
+<form class="data-form" method="POST" action="{{ url_for('auth.register') }}">
+
+    <label>Username</label>
+    <input type="text" name="username" value="{{ form_data.get('username', '') }}">
+
+    <label>Email</label>
+    <input type="email" name="email" value="{{ form_data.get('email', '') }}">
+
+    <label>Password</label>
+    <input type="password" name="password">
+
+    <label>Confirm Password</label>
+    <input type="password" name="confirm_password">
+
+    <div class="form-actions">
+        <button type="submit">Register</button>
+        <a href="{{ url_for('auth.login') }}">Already have an account?</a>
+    </div>
+
+</form>
+
+{% endblock %}

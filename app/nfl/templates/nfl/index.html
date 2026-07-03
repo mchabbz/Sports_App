@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- League list page displays all player records for this sport. -->
+<section class="page-header">
+    <h2>NFL Top Players</h2>
+    <p>Total NFL players in database: {{ total_count }}</p>
+    <p>Players currently displayed: {{ filtered_count }}</p>
+</section>
+
+<div class="page-actions">
+    <a class="button-link" href="{{ url_for('nfl.create') }}">Add New NFL Player</a>
+    <a class="button-link" href="{{ url_for('nfl.search') }}">Search NFL Players</a>
+</div>
+<!-- Filter and sort form controls which records are shown. -->
+<section class="filter-box">
+    <form method="GET" action="{{ url_for('nfl.index') }}">
+
+        <div class="form-row">
+            <label for="team">Filter by Team</label>
+            <select id="team" name="team">
+                <option value="">All Teams</option>
+
+                {% for team in teams %}
+                    <option value="{{ team }}" {% if selected_team == team %}selected{% endif %}>
+                        {{ team }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="sort">Sort By</label>
+            <select id="sort" name="sort">
+                <option value="">Default</option>
+                <option value="player" {% if selected_sort == "player" %}selected{% endif %}>Player Name</option>
+                <option value="team" {% if selected_sort == "team" %}selected{% endif %}>Team Name</option>
+                <option value="metric_1" {% if selected_sort == "metric_1" %}selected{% endif %}>Metric 1 Highest</option>
+                <option value="metric_2" {% if selected_sort == "metric_2" %}selected{% endif %}>Metric 2 Highest</option>
+                <option value="metric_3" {% if selected_sort == "metric_3" %}selected{% endif %}>Metric 3 Highest</option>
+                <option value="metric_4" {% if selected_sort == "metric_4" %}selected{% endif %}>Metric 4 Highest</option>
+            </select>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit">Apply</button>
+            <a href="{{ url_for('nfl.index') }}">Reset</a>
+        </div>
+
+    </form>
+</section>
+<!-- Table rows are generated dynamically from database query results. -->
+<table class="data-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Sport</th>
+            <th>Game ID</th>
+            <th>League</th>
+            <th>Team</th>
+            <th>Player</th>
+            <th>Metric 1</th>
+            <th>Metric 2</th>
+            <th>Metric 3</th>
+            <th>Metric 4</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for player in players %}
+        <tr>
+            <td>{{ player.id }}</td>
+            <td>{{ player.sport.name }}</td>
+            <td>{{ player.game_id }}</td>
+            <td>{{ player.league }}</td>
+            <td>{{ player.team }}</td>
+            <td>{{ player.player }}</td>
+            <td>{{ player.metric_1 }}</td>
+            <td>{{ player.metric_2 }}</td>
+            <td>{{ "%.3f"|format(player.metric_3) }}</td>
+            <td>{{ player.metric_4 }}</td>
+            <td>
+                <a href="{{ url_for('nfl.detail', player_id=player.id) }}">View</a>
+                <a href="{{ url_for('nfl.edit', player_id=player.id) }}">Edit</a>
+                <a href="{{ url_for('nfl.delete', player_id=player.id) }}">Delete</a>
+            </td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="11">No NFL players found.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

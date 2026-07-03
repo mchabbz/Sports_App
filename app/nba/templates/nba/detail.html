@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Detail page displays all information for one player record. -->
+<section class="page-header">
+    <h2>{{ player.player }}</h2>
+    <p>{{ player.team }} — {{ player.league }}</p>
+</section>
+<!-- Creator information shows whether the record came from a user or seed CSV data. -->
+<section class="detail-card">
+    <p><strong>ID:</strong> {{ player.id }}</p>
+    <p><strong>Sport:</strong> {{ player.sport.name }}</p>
+    <p><strong>Game ID:</strong> {{ player.game_id }}</p>
+    <p><strong>League:</strong> {{ player.league }}</p>
+    <p><strong>Team:</strong> {{ player.team }}</p>
+    <p><strong>Player:</strong> {{ player.player }}</p>
+    <p><strong>Metric 1:</strong> {{ player.metric_1 }}</p>
+    <p><strong>Metric 2:</strong> {{ player.metric_2 }}</p>
+    <p><strong>Metric 3:</strong> {{ "%.3f"|format(player.metric_3) }}</p>
+    <p><strong>Metric 4:</strong> {{ player.metric_4 }}</p>
+
+    {% if player.creator %}
+        <p><strong>Created By:</strong> {{ player.creator.username }}</p>
+    {% else %}
+        <p><strong>Created By:</strong> Seed CSV Data</p>
+    {% endif %}
+</section>
+<!-- Edit and delete links are only shown when a user is logged in. -->
+<div class="page-actions">
+    {% if current_user.is_authenticated %}
+        <a class="button-link" href="{{ url_for('nba.edit', player_id=player.id) }}">Edit</a>
+        <a class="danger-link" href="{{ url_for('nba.delete', player_id=player.id) }}">Delete</a>
+    {% endif %}
+
+    <a href="{{ url_for('nba.index') }}">Back to NBA List</a>
+</div>
+
+{% endblock %}

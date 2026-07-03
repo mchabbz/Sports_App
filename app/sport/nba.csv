@@ -1,0 +1,151 @@
+Game_ID,League,Teams,Players,Metric_1,Metric_2,Metric_3,Metric_4
+NBA-2025-001,NBA,Atlanta Hawks,Alex Hawk AH1,46,184,0.391,19
+NBA-2025-001,NBA,Atlanta Hawks,Jordan Hawk AH2,47,188,0.392,20
+NBA-2025-001,NBA,Atlanta Hawks,Taylor Hawk AH3,48,192,0.393,21
+NBA-2025-001,NBA,Atlanta Hawks,Chris Hawk AH4,49,196,0.394,22
+NBA-2025-001,NBA,Atlanta Hawks,Cameron Hawk AH5,50,200,0.395,23
+NBA-2025-001,NBA,Boston Celtics,Alex Celtic BC1,56,224,0.401,29
+NBA-2025-001,NBA,Boston Celtics,Jordan Celtic BC2,57,228,0.402,30
+NBA-2025-001,NBA,Boston Celtics,Taylor Celtic BC3,58,232,0.403,31
+NBA-2025-001,NBA,Boston Celtics,Chris Celtic BC4,59,236,0.404,32
+NBA-2025-001,NBA,Boston Celtics,Cameron Celtic BC5,60,240,0.405,33
+NBA-2025-001,NBA,Brooklyn Nets,Alex Nets BN1,66,264,0.411,39
+NBA-2025-001,NBA,Brooklyn Nets,Jordan Nets BN2,67,268,0.412,40
+NBA-2025-001,NBA,Brooklyn Nets,Taylor Nets BN3,68,272,0.413,41
+NBA-2025-001,NBA,Brooklyn Nets,Chris Nets BN4,69,276,0.414,42
+NBA-2025-001,NBA,Brooklyn Nets,Cameron Nets BN5,70,280,0.415,43
+NBA-2025-001,NBA,Charlotte Hornets,Alex Hornet CH1,76,304,0.421,49
+NBA-2025-001,NBA,Charlotte Hornets,Jordan Hornet CH2,77,308,0.422,50
+NBA-2025-001,NBA,Charlotte Hornets,Taylor Hornet CH3,78,312,0.423,51
+NBA-2025-001,NBA,Charlotte Hornets,Chris Hornet CH4,79,316,0.424,52
+NBA-2025-001,NBA,Charlotte Hornets,Cameron Hornet CH5,80,320,0.425,53
+NBA-2025-001,NBA,Chicago Bulls,Alex Bull CB1,86,344,0.431,59
+NBA-2025-001,NBA,Chicago Bulls,Jordan Bull CB2,87,348,0.432,60
+NBA-2025-001,NBA,Chicago Bulls,Taylor Bull CB3,88,352,0.433,61
+NBA-2025-001,NBA,Chicago Bulls,Chris Bull CB4,89,356,0.434,62
+NBA-2025-001,NBA,Chicago Bulls,Cameron Bull CB5,90,360,0.435,63
+NBA-2025-001,NBA,Cleveland Cavaliers,Alex Cavalier CC1,96,384,0.441,69
+NBA-2025-001,NBA,Cleveland Cavaliers,Jordan Cavalier CC2,97,388,0.442,70
+NBA-2025-001,NBA,Cleveland Cavaliers,Taylor Cavalier CC3,98,392,0.443,71
+NBA-2025-001,NBA,Cleveland Cavaliers,Chris Cavalier CC4,99,396,0.444,72
+NBA-2025-001,NBA,Cleveland Cavaliers,Cameron Cavalier CC5,100,400,0.445,73
+NBA-2025-001,NBA,Dallas Mavericks,Alex Maverick DM1,106,424,0.451,9
+NBA-2025-001,NBA,Dallas Mavericks,Jordan Maverick DM2,107,428,0.452,10
+NBA-2025-001,NBA,Dallas Mavericks,Taylor Maverick DM3,108,432,0.453,11
+NBA-2025-001,NBA,Dallas Mavericks,Chris Maverick DM4,109,436,0.454,12
+NBA-2025-001,NBA,Dallas Mavericks,Cameron Maverick DM5,110,440,0.455,13
+NBA-2025-001,NBA,Denver Nuggets,Alex Nugget DN1,116,464,0.461,19
+NBA-2025-001,NBA,Denver Nuggets,Jordan Nugget DN2,117,468,0.462,20
+NBA-2025-001,NBA,Denver Nuggets,Taylor Nugget DN3,118,472,0.463,21
+NBA-2025-001,NBA,Denver Nuggets,Chris Nugget DN4,119,476,0.464,22
+NBA-2025-001,NBA,Denver Nuggets,Cameron Nugget DN5,120,480,0.465,23
+NBA-2025-001,NBA,Detroit Pistons,Alex Piston DP1,126,504,0.471,29
+NBA-2025-001,NBA,Detroit Pistons,Jordan Piston DP2,127,508,0.472,30
+NBA-2025-001,NBA,Detroit Pistons,Taylor Piston DP3,128,512,0.473,31
+NBA-2025-001,NBA,Detroit Pistons,Chris Piston DP4,129,516,0.474,32
+NBA-2025-001,NBA,Detroit Pistons,Cameron Piston DP5,130,520,0.475,33
+NBA-2025-001,NBA,Golden State Warriors,Alex Warrior GS1,136,544,0.481,39
+NBA-2025-001,NBA,Golden State Warriors,Jordan Warrior GS2,137,548,0.482,40
+NBA-2025-001,NBA,Golden State Warriors,Taylor Warrior GS3,138,552,0.483,41
+NBA-2025-001,NBA,Golden State Warriors,Chris Warrior GS4,139,556,0.484,42
+NBA-2025-001,NBA,Golden State Warriors,Cameron Warrior GS5,140,560,0.485,43
+NBA-2025-001,NBA,Houston Rockets,Alex Rocket HR1,36,584,0.491,49
+NBA-2025-001,NBA,Houston Rockets,Jordan Rocket HR2,37,588,0.492,50
+NBA-2025-001,NBA,Houston Rockets,Taylor Rocket HR3,38,592,0.493,51
+NBA-2025-001,NBA,Houston Rockets,Chris Rocket HR4,39,596,0.494,52
+NBA-2025-001,NBA,Houston Rockets,Cameron Rocket HR5,40,600,0.495,53
+NBA-2025-001,NBA,Indiana Pacers,Alex Pacer IP1,46,624,0.501,59
+NBA-2025-001,NBA,Indiana Pacers,Jordan Pacer IP2,47,628,0.502,60
+NBA-2025-001,NBA,Indiana Pacers,Taylor Pacer IP3,48,632,0.503,61
+NBA-2025-001,NBA,Indiana Pacers,Chris Pacer IP4,49,636,0.504,62
+NBA-2025-001,NBA,Indiana Pacers,Cameron Pacer IP5,50,640,0.505,63
+NBA-2025-001,NBA,Los Angeles Clippers,Alex Clipper LA1,56,664,0.511,69
+NBA-2025-001,NBA,Los Angeles Clippers,Jordan Clipper LA2,57,668,0.512,70
+NBA-2025-001,NBA,Los Angeles Clippers,Taylor Clipper LA3,58,672,0.513,71
+NBA-2025-001,NBA,Los Angeles Clippers,Chris Clipper LA4,59,676,0.514,72
+NBA-2025-001,NBA,Los Angeles Clippers,Cameron Clipper LA5,60,680,0.515,73
+NBA-2025-001,NBA,Los Angeles Lakers,Alex Laker LA1,66,704,0.521,9
+NBA-2025-001,NBA,Los Angeles Lakers,Jordan Laker LA2,67,708,0.522,10
+NBA-2025-001,NBA,Los Angeles Lakers,Taylor Laker LA3,68,712,0.523,11
+NBA-2025-001,NBA,Los Angeles Lakers,Chris Laker LA4,69,716,0.524,12
+NBA-2025-001,NBA,Los Angeles Lakers,Cameron Laker LA5,70,720,0.525,13
+NBA-2025-001,NBA,Memphis Grizzlies,Alex Grizzlie MG1,76,744,0.531,19
+NBA-2025-001,NBA,Memphis Grizzlies,Jordan Grizzlie MG2,77,748,0.532,20
+NBA-2025-001,NBA,Memphis Grizzlies,Taylor Grizzlie MG3,78,752,0.533,21
+NBA-2025-001,NBA,Memphis Grizzlies,Chris Grizzlie MG4,79,756,0.534,22
+NBA-2025-001,NBA,Memphis Grizzlies,Cameron Grizzlie MG5,80,760,0.535,23
+NBA-2025-001,NBA,Miami Heat,Alex Heat MH1,86,784,0.541,29
+NBA-2025-001,NBA,Miami Heat,Jordan Heat MH2,87,788,0.542,30
+NBA-2025-001,NBA,Miami Heat,Taylor Heat MH3,88,792,0.543,31
+NBA-2025-001,NBA,Miami Heat,Chris Heat MH4,89,796,0.544,32
+NBA-2025-001,NBA,Miami Heat,Cameron Heat MH5,90,800,0.545,33
+NBA-2025-001,NBA,Milwaukee Bucks,Alex Buck MB1,96,824,0.551,39
+NBA-2025-001,NBA,Milwaukee Bucks,Jordan Buck MB2,97,828,0.552,40
+NBA-2025-001,NBA,Milwaukee Bucks,Taylor Buck MB3,98,832,0.553,41
+NBA-2025-001,NBA,Milwaukee Bucks,Chris Buck MB4,99,836,0.554,42
+NBA-2025-001,NBA,Milwaukee Bucks,Cameron Buck MB5,100,840,0.555,43
+NBA-2025-001,NBA,Minnesota Timberwolves,Alex Timberwolve MT1,106,864,0.381,49
+NBA-2025-001,NBA,Minnesota Timberwolves,Jordan Timberwolve MT2,107,868,0.382,50
+NBA-2025-001,NBA,Minnesota Timberwolves,Taylor Timberwolve MT3,108,872,0.383,51
+NBA-2025-001,NBA,Minnesota Timberwolves,Chris Timberwolve MT4,109,876,0.384,52
+NBA-2025-001,NBA,Minnesota Timberwolves,Cameron Timberwolve MT5,110,880,0.385,53
+NBA-2025-001,NBA,New Orleans Pelicans,Alex Pelican NO1,116,904,0.391,59
+NBA-2025-001,NBA,New Orleans Pelicans,Jordan Pelican NO2,117,908,0.392,60
+NBA-2025-001,NBA,New Orleans Pelicans,Taylor Pelican NO3,118,912,0.393,61
+NBA-2025-001,NBA,New Orleans Pelicans,Chris Pelican NO4,119,916,0.394,62
+NBA-2025-001,NBA,New Orleans Pelicans,Cameron Pelican NO5,120,920,0.395,63
+NBA-2025-001,NBA,New York Knicks,Alex Knick NY1,126,944,0.401,69
+NBA-2025-001,NBA,New York Knicks,Jordan Knick NY2,127,948,0.402,70
+NBA-2025-001,NBA,New York Knicks,Taylor Knick NY3,128,952,0.403,71
+NBA-2025-001,NBA,New York Knicks,Chris Knick NY4,129,956,0.404,72
+NBA-2025-001,NBA,New York Knicks,Cameron Knick NY5,130,960,0.405,73
+NBA-2025-001,NBA,Oklahoma City Thunder,Alex Thunder OC1,136,984,0.411,9
+NBA-2025-001,NBA,Oklahoma City Thunder,Jordan Thunder OC2,137,988,0.412,10
+NBA-2025-001,NBA,Oklahoma City Thunder,Taylor Thunder OC3,138,992,0.413,11
+NBA-2025-001,NBA,Oklahoma City Thunder,Chris Thunder OC4,139,996,0.414,12
+NBA-2025-001,NBA,Oklahoma City Thunder,Cameron Thunder OC5,140,1000,0.415,13
+NBA-2025-001,NBA,Orlando Magic,Alex Magic OM1,36,1024,0.421,19
+NBA-2025-001,NBA,Orlando Magic,Jordan Magic OM2,37,1028,0.422,20
+NBA-2025-001,NBA,Orlando Magic,Taylor Magic OM3,38,1032,0.423,21
+NBA-2025-001,NBA,Orlando Magic,Chris Magic OM4,39,1036,0.424,22
+NBA-2025-001,NBA,Orlando Magic,Cameron Magic OM5,40,1040,0.425,23
+NBA-2025-001,NBA,Philadelphia 76ers,Alex 76er P71,46,1064,0.431,29
+NBA-2025-001,NBA,Philadelphia 76ers,Jordan 76er P72,47,1068,0.432,30
+NBA-2025-001,NBA,Philadelphia 76ers,Taylor 76er P73,48,1072,0.433,31
+NBA-2025-001,NBA,Philadelphia 76ers,Chris 76er P74,49,1076,0.434,32
+NBA-2025-001,NBA,Philadelphia 76ers,Cameron 76er P75,50,1080,0.435,33
+NBA-2025-001,NBA,Phoenix Suns,Alex Suns PS1,56,1104,0.441,39
+NBA-2025-001,NBA,Phoenix Suns,Jordan Suns PS2,57,1108,0.442,40
+NBA-2025-001,NBA,Phoenix Suns,Taylor Suns PS3,58,1112,0.443,41
+NBA-2025-001,NBA,Phoenix Suns,Chris Suns PS4,59,1116,0.444,42
+NBA-2025-001,NBA,Phoenix Suns,Cameron Suns PS5,60,1120,0.445,43
+NBA-2025-001,NBA,Portland Trail Blazers,Alex Blazer PT1,66,1144,0.451,49
+NBA-2025-001,NBA,Portland Trail Blazers,Jordan Blazer PT2,67,1148,0.452,50
+NBA-2025-001,NBA,Portland Trail Blazers,Taylor Blazer PT3,68,1152,0.453,51
+NBA-2025-001,NBA,Portland Trail Blazers,Chris Blazer PT4,69,1156,0.454,52
+NBA-2025-001,NBA,Portland Trail Blazers,Cameron Blazer PT5,70,1160,0.455,53
+NBA-2025-001,NBA,Sacramento Kings,Alex King SK1,76,1184,0.461,59
+NBA-2025-001,NBA,Sacramento Kings,Jordan King SK2,77,1188,0.462,60
+NBA-2025-001,NBA,Sacramento Kings,Taylor King SK3,78,1192,0.463,61
+NBA-2025-001,NBA,Sacramento Kings,Chris King SK4,79,1196,0.464,62
+NBA-2025-001,NBA,Sacramento Kings,Cameron King SK5,80,1200,0.465,63
+NBA-2025-001,NBA,San Antonio Spurs,Alex Spur SA1,86,1224,0.471,69
+NBA-2025-001,NBA,San Antonio Spurs,Jordan Spur SA2,87,1228,0.472,70
+NBA-2025-001,NBA,San Antonio Spurs,Taylor Spur SA3,88,1232,0.473,71
+NBA-2025-001,NBA,San Antonio Spurs,Chris Spur SA4,89,1236,0.474,72
+NBA-2025-001,NBA,San Antonio Spurs,Cameron Spur SA5,90,1240,0.475,73
+NBA-2025-001,NBA,Toronto Raptors,Alex Raptor TR1,96,1264,0.481,9
+NBA-2025-001,NBA,Toronto Raptors,Jordan Raptor TR2,97,1268,0.482,10
+NBA-2025-001,NBA,Toronto Raptors,Taylor Raptor TR3,98,1272,0.483,11
+NBA-2025-001,NBA,Toronto Raptors,Chris Raptor TR4,99,1276,0.484,12
+NBA-2025-001,NBA,Toronto Raptors,Cameron Raptor TR5,100,1280,0.485,13
+NBA-2025-001,NBA,Utah Jazz,Alex Jazz UJ1,106,1304,0.491,19
+NBA-2025-001,NBA,Utah Jazz,Jordan Jazz UJ2,107,1308,0.492,20
+NBA-2025-001,NBA,Utah Jazz,Taylor Jazz UJ3,108,1312,0.493,21
+NBA-2025-001,NBA,Utah Jazz,Chris Jazz UJ4,109,1316,0.494,22
+NBA-2025-001,NBA,Utah Jazz,Cameron Jazz UJ5,110,1320,0.495,23
+NBA-2025-001,NBA,Washington Wizards,Alex Wizard WW1,116,1344,0.501,29
+NBA-2025-001,NBA,Washington Wizards,Jordan Wizard WW2,117,1348,0.502,30
+NBA-2025-001,NBA,Washington Wizards,Taylor Wizard WW3,118,1352,0.503,31
+NBA-2025-001,NBA,Washington Wizards,Chris Wizard WW4,119,1356,0.504,32
+NBA-2025-001,NBA,Washington Wizards,Cameron Wizard WW5,120,1360,0.505,33
